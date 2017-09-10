@@ -1,0 +1,6 @@
+SET CURRENT_FOLDER=%~dp0
+SET CURRENT_FOLDER=%CURRENT_FOLDER:~0,-1%
+
+SET DOXYGEN_FOLDER=C:\doxygen-1.8.11
+
+"%DOXYGEN_FOLDER%\doxygen.exe" "doxygen-config"
