@@ -1,0 +1,3 @@
+
+#define WOLFCRYPT_ONLY
+#define WOLFSSL_AES_DIRECT
